@@ -1,0 +1,42 @@
+# jemdoc: menu{MENU.txt}{index.html}
+
+= Advices for academic research
+
+== Research
+- Think about questions scientificly. Never try to avoid the truth, instead, find a way to express it.
+- To write a paper, think about the figures first!
+- It can be more benifical when it is posssible for solve a difficulte problem with simple solution, instead of seeking solution with a more difficult method. For example, if it is possible to solve a nonlinear problme with linear optimization method, it can be better than solving the nonlinear problem itself.
+
+== Thinking
+- We can do more thinking, instead of going to the details.
+
+== References
+- Show a track of our own work, at least reference related work
+- Be sensitive to those sentences that should cite othe's papers 
+
+== Writing
+- If you want to say something, highlight it (For example, put it in a section); else, you don't need to put it in a section.
+- Think about writing in these levels: (a) grammar, such as single and plural, proposition; (b) sentence structure, learn from others (try to find good structures from other's papers), make it elegant; (c) section organization, break down to more sections, so that readers can ealier catch what is presented. (d) symbols, never use the same symbol to represent different meanings. 
+- What is the least things to say to be meaningful!
+
+== Typeset
+- Figures can be saved in a "figs" folder, and use "\graphicspath" to direct to the folder.
+~~~
+\graphicspath\{\{figs/\}\}
+~~~
+
+- The size of parentheses in equations can correspond to what is included in them. 
+~~~
+\big( \Big( \bigg( \Bigg(
+~~~
+
+== Languages
+- To make sentences shorter, words like "technique", "method", "process", "effect" can be deleted
+- Be really careful of the "s" and the tenses
+
+== Maths
+- 2D can be $2$D, intead of $2D$
+- It can be $l$th, instead of $l$ th
+- Cite an equation, Eq.~(\ref{eq:gradFid}), not Eq.~\ref{eq:gradFid}
+- Never define a symbol for more than one time
+- Be careful about parentheses, $($, $[$, $\{$

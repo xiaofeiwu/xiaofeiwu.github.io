@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{index.html}
+Home
+    Home                [index.html]
+    CV		        [cv.html]
+
+Academic
+    Research   		[research.html]
+    Publication		[pub.html]
+
+Internal
+    Advices		[advice.html]
