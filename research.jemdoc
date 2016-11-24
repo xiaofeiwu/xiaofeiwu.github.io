@@ -1,8 +1,0 @@
-# jemdoc: menu{MENU.txt}{index.html}
-= Research
-
-== Current Work
-- Computational Lithography via inverse shape optimization with sparsity constraint
-~~~
-[ssr.html ssr.html] in progress.
-~~~
